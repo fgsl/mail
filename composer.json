@@ -1,0 +1,22 @@
+{
+    "name": "fgsl/config",
+    "description": "Fgsl Config",
+    "type": "library",
+    "keywords": [
+        "config",
+        "fgsl",
+        "framework"
+    ],
+    "homepage": "https://github.com/fgsl/config",
+    "license": "AGPL",
+    "autoload": {
+        "psr-4": {
+            "Fgsl\\Config\\": "src/Fgsl/Config"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zend-mail" : "^2.8.0",
+        "zendframework/zend-servicemanager" : "^3.3.0"
+    }
+}
