@@ -1,17 +1,17 @@
 {
-    "name": "fgsl/config",
-    "description": "Fgsl Config",
+    "name": "fgsl/mail",
+    "description": "Fgsl Mail",
     "type": "library",
     "keywords": [
-        "config",
+        "mail",
         "fgsl",
         "framework"
     ],
-    "homepage": "https://github.com/fgsl/config",
+    "homepage": "https://github.com/fgsl/mail",
     "license": "AGPL",
     "autoload": {
         "psr-4": {
-            "Fgsl\\Config\\": "src/Fgsl/Config"
+            "Fgsl\\Mail\\": "src/Fgsl/Mail"
         }
     },
     "require": {
